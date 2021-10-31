@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<head>
+    <title>CV</title>
+</head>
+<body>
+    <h1>
+        <u>Formulaire CV</u>
+    </h1>
+    <form>
+        <p>
+            <label for="Nom">Votre Nom</label> : <input type="text" name="Nom" id="Nom" />
+            <label for="Prenom">  Votre Prenom</label> : <input type="text" name="Prenom" id="Prenom" />
+        </p>
+        <p>
+            <label for="Adresse">Votre Adresse</label> : <input type="text" name="Adresse" id="Adresse" /> 
+        </p>
+        <p>
+            <label for="Age">Votre Age</label> : <input type="number" name="Age" id="Age" />
+        </p>
+        <p>
+            <label for="SFD">Section de Formation et Diplome</label> : <br /><textarea type="text" name="SFD" id="SFD"></textarea>
+        </p>
+        <p>
+            <label for="SCT">Section de Compétences Techniques</label> : <br /><textarea type="text" name="SCT" id="SCT"></textarea>
+        </p>
+        <p>
+            <label for="SC">Section de Compétences </label> : <br /><textarea type="text" name="SC" id="SC"></textarea>
+        </p>
+     </form>
 
-You can use the [editor on GitHub](https://github.com/Souhailx/FormulaireCV/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Souhailx/FormulaireCV/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
